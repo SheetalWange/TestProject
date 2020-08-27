@@ -34,6 +34,7 @@ CucumberFramework.featureFiles package contains "Frontend.feature" and "Backend.
 *Step Definition Feature File:
 CucumberFramework.stepFiles  package contains "Frontend.java" and "Backend.java" stepfiles for respective Frontend and Backend test cases.
 
+
 *runners package contains TestRunner junit class.
 
 *CucumberFramework.resouces package contains all the resources required.
@@ -43,6 +44,7 @@ Added chromedriver to resources
 #Instructions to run project
 Run the TestRunner to execute fronend and backend test cases.
 
-Please note : the frontend test1 (@FETest1) will fail in assertions because the view all page displays 200 records but expectations was it to display 100 
+Please note:
+1. The frontend test1 (@FETest1) will fail in assertions because the view all page displays 200 records but expectations was it to display 100 
 records.
-
+2. Before executing backend step definition, add APIKey.

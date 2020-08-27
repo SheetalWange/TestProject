@@ -21,7 +21,7 @@ public class Backend {
 	JsonPath mapResponse, infoResponse;
 	List<String> actualMineableCryptos = new ArrayList<String>();
 	String baseURI ="https://pro-api.coinmarketcap.com";
-	String APIKey = "12ba0ed8-fd51-4464-904c-25855ff683d9";
+	String APIKey = "*************************************";
 	
 	//Retrieve the ID of bitcoin (BTC), usd tether (USDT), and Ethereum (ETH), using the /cryptocurrency/map call
 	@Given("^Retrieve the ID of bitcoin\\(BTC\\),usd tether\\(USDT\\),and Ethereum\\(ETH\\)$")
